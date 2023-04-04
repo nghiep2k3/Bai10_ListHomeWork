@@ -1,8 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
 import Hello from './Component/Hello.jsx';
-import Header from './Component/Header/Th2';
-import Footer from './Component/Footer/Th2';
+import Header from './Component/Th2/Header/Th2';
+import Footer from './Component/Th2/Footer/Th2';
 import Th3 from './Component/Th3/Th3';
 import Th4 from './Component/Th4/Th4';
 import BT2 from './Component/BT2/Bt2'
@@ -23,20 +23,20 @@ import BT2 from './Component/BT2/Bt2'
 // export default App;
 
 
-//Th2
+// Th2
 
-// function App() {
-//   return (
-//     <div className="App">
-//         <Header></Header>
-//         <div>Đây là Content</div>
-//         <Footer></Footer>
+function App() {
+  return (
+    <div className="App">
+        <Header></Header>
+        <div>Đây là Content</div>
+        <Footer></Footer>
 
-//     </div>
-//   );
-// }
+    </div>
+  );
+}
 
-// export default App;
+export default App;
 
 // Th3
 
@@ -50,14 +50,17 @@ import BT2 from './Component/BT2/Bt2'
 
 // export default App;
 
-function App() {
-  return (
-      // <AppButton></AppButton>
-      <BT2/>
-  );
-}
 
-export default App;
+//Bài tập 2
+
+// function App() {
+//   return (
+//       // <AppButton></AppButton>
+//       <BT2/>
+//   );
+// }
+
+// export default App;
 
 
 

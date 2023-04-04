@@ -35,20 +35,20 @@ import React, { useEffect, useState } from 'react';
 //   );
 // }
 
-// export default function Th4() {
-//     const [name, setName] = useState('google');
-//   const handleClick = () => {
-//     setName('facebook');
-//   };
+export default function Th4() {
+    const [name, setName] = useState('google');
+  const handleClick = () => {
+    setName('facebook');
+  };
 
-//   return (
-//     <div>
-//       <p className={name === 'google' ? 'color-red': 'color-green'}>Xin chào các bạn</p>
-//       <button onClick={handleClick}>
-//         Click me
-//       </button>
-//     </div>
-//   );
-// };
+  return (
+    <div>
+      <p className={name === 'google' ? 'color-red': 'color-green'}>Xin chào các bạn</p>
+      <button onClick={handleClick}>
+        Click me
+      </button>
+    </div>
+  );
+};
 
   
