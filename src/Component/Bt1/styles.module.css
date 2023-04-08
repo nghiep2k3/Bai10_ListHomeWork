@@ -1,0 +1,17 @@
+.container{
+    height: 500px;
+    width: 800px;
+    display: flex;
+}
+
+.left{
+    width: 30%;
+    background-color: aqua;
+    height: 500px;
+}
+
+.right{
+    width: 70%;
+    height: 500px;
+    background-color: red;
+}
